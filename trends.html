@@ -16,8 +16,7 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<img src="images/lab_logo2.png" height="100">
-								<!-- <h1><a href="index.html">TGU-UOW 计算机视觉实验室</a></h1> -->
+								<a href="index.html"><img src="images/lab_logo2.png" height="100"></a>
 							</div>
 
 						<!-- Nav -->
@@ -94,98 +93,7 @@
 					</div>
 				</div>
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<footer id="footer" class="container">
-						<div class="row">
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<div class="3u 6u(medium) 12u$(small)">
-										<img src="images/tgu_logo.png" width="70%">
-										<br />
-										<img src="images/lab_logo2.png" width="70%">
-										<br />
-										<!-- <ul class="style2">
-											<hr>
-											<li>网络和软件安全保障<br>教育部重点实验室</li>
-										</ul> -->
-									</div>
-									<!-- <section class="widget links">
-										<h3>Random Stuff</h3>
-										<ul class="style2">
-											<li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li>
-										</ul>
-									</section> -->
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>常用服务</h3>
-										<ul class="style2">
-											<li><a href="https://www.tiangong.edu.cn/" target="_blank">天津工业大学官网</a></li>
-											<li><a href="https://www.uow.edu.au/" target="_blank">澳大利亚伍伦贡大学官网</a></li>
-
-											<!-- <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li> -->
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Links -->
-									<section class="widget links">
-										<h3>友情链接</h3>
-										<ul class="style2">
-											<li><a href="https://www.tiangong.edu.cn/" target="_blank">天津工业大学官网</a></li>
-											<li><a href="https://www.uow.edu.au/" target="_blank">澳大利亚伍伦贡大学官网</a></li>
-											<!-- <li><a href="#">Etiam feugiat condimentum</a></li>
-											<li><a href="#">Aliquam imperdiet suscipit odio</a></li>
-											<li><a href="#">Sed porttitor cras in erat nec</a></li>
-											<li><a href="#">Felis varius pellentesque potenti</a></li>
-											<li><a href="#">Nullam scelerisque blandit leo</a></li> -->
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-3 col-6-medium col-12-small">
-
-								<!-- Contact -->
-									<section class="widget contact">
-										<h3>联系我们</h3>
-										<p>天津市西青区天津工业大学<br />
-										电气与电子工程学院4B215<br />
-										邮编：300387<br />
-										Email:liguangxu@tiangong.edu.cn<br />
-										<br />
-										</p>
-									</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									<ul class="menu">
-										<li>&copy; TGU-UOW Computer Vision Lab. All rights reserved</li>
-										<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-					</footer>
-				</div>
-
-			</div>
+			<div id="footerpage"></div>
 
 		<!-- Scripts -->
 
@@ -195,6 +103,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				$(function(){
+					$("#footerpage").load("footer.html");
+				});
+			</script>
 
 	</body>
 </html>
